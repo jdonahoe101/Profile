@@ -1,20 +1,60 @@
-html {}
+html {
+    color: #22313F;
+}
 
 body {
 
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
+    color: #22313F;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Galada', cursive !important;
+h1 {
+    font-family: 'Lobster two', cursive !important;
+    font-size: 4.5em;
+    font-stretch: extra-expanded;
+    color: #f63d65 !important;
+    font-weight: lighter;
+    text-shadow: 2px 1px 3px;
 }
 
 #navbar {
     background-color: #ffc822 !important;
 }
+
+
+li.nav-link,
+li.nav-link a {
+    color: #f75578 !important;
+}
+
+h2 {
+    font-family: 'Lobster two', cursive !important;
+    font-size: 3.2em !important;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px;
+}
+
+.text-pink {
+    color: #f75578;
+
+}
+
+.text-yellow {
+    color: #ffc822;
+}
+
+.text-grayPink {
+    color: #f9869f;
+}
+
+h3 {
+    font-family: 'Lobster two', cursive !important;
+    font-size: 2.8em;
+    text-shadow: 1px 1px 2px;
+}
+
+
 
 /*--------------------------------
 
