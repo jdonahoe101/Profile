@@ -6,14 +6,25 @@ body {
     font-size: 1em;
 }
 
-h1,
-h2,
-h3 {
+h1 {
     font-family: 'Galada', cursive !important;
 }
 
 #navbar {
     background-color: #ffc822 !important;
+}
+
+#profile-links {
+
+    background-color: #ffc822;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+
+
+.text-muted-currsive {
+    font-family: 'Galada', cursive !important;
 }
 
 /*--------------------------------
