@@ -10,18 +10,23 @@ body {
 }
 
 h1 {
+<<<<<<< HEAD
     font-family: 'Lobster two', cursive !important;
     font-size: 4.5em;
     font-stretch: extra-expanded;
     color: #f63d65 !important;
     font-weight: lighter;
     text-shadow: 2px 1px 3px;
+=======
+    font-family: 'Galada', cursive !important;
+>>>>>>> b2f1f168782767186a192468e46b88209d47d62d
 }
 
 #navbar {
     background-color: #ffc822 !important;
 }
 
+<<<<<<< HEAD
 
 li.nav-link,
 li.nav-link a {
@@ -56,6 +61,21 @@ h3 {
 
 
 
+=======
+#profile-links {
+
+    background-color: #ffc822;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+
+
+.text-muted-currsive {
+    font-family: 'Galada', cursive !important;
+}
+
+>>>>>>> b2f1f168782767186a192468e46b88209d47d62d
 /*--------------------------------
 
 Nucleo Web Font
