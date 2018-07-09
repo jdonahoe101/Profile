@@ -25,6 +25,12 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Galada|Lobster|Raleway|Lobster two" rel="stylesheet">
+    <style>
+    @media only screen and (min-width: 768px) {
+      li .nav-item #textme {
+        display: none;
+      }
+    }</style>
     <script>
         const projectName = 'portfolio';
         localStorage.setItem('example_project', 'Personal Portfolio');
@@ -58,16 +64,21 @@
                             <i class="material-icons">alternate_email</i>
                         </a>
                     </li>
-                    <li class="nav-item hide-on-lg">
+                    <li class="nav-item" id="textme">
                         <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="sms:7138554993" target="_self" data-original-title="Text Me">
                             <i class="material-icons"> chat_bubble_outline</i>
                         </a>
                     </li>
+                                       <li class="nav-item">
+                                           <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#profile-links" target="self" data-original-title="More Ways to Contact me">
+                                               <i class="material-icons">star</i>
+                                           </a>
+                                       </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="page-header" data-parallax="true" style="background-image: url('assets/img/clouds-lightGray.jpg')"> </div>
+    <div class="page-header" data-parallax="true" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1304140/clouds-lightGray.jpg')"> </div>
     <div class=" main main-raised ">
         <div class="profile-content ">
             <div class="container ">
@@ -140,7 +151,7 @@
                             <a class="nav-link active" href="#projects" role="tab" data-toggle="tab"> <i class="material-icons"></i>Tribute Page </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#docPage" role="tab" data-toggle="tab"> <i class="material-icons"></i>Documentation Page </a>
+                            <a class="nav-link" href="#productPage" role="tab" data-toggle="tab"> <i class="material-icons"></i>Product Page </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#survey" role="tab" data-toggle="tab"> <i class="material-icons"></i>Survey Form </a>
@@ -151,20 +162,22 @@
         </div>
         <div class="tab-content tab-space ">
             <div class="tab-pane active text-center gallery " id="projects">
-                <div class="row ">
+                <div class="row project-tile">
                     <div class="col-md-10 ml-auto mr-auto ">
-                                <h4 class="project-title">FCC Project: Tribute Page</h4>
-                                <h6>Made my tribute page to one of my favorite artists, Macklemore</h6>
-                                <img src="assets/img/project-macklemore.png" class="rounded " width="200px">
+                                <h4>FCC Project: Tribute Page</h4>
+                                <h6>Made my tribute page to one of my favorite artists, Macklemore</h6><a href="https://codepen.io/jdonahoe101/live/eKPqGa">                      <img src="assets/img/project-macklemore.png" class="rounded " width="200px"></a>
+
                     </div>
                 </div>
             </div>
-            <div class="tab-pane text-center gallery " id="docPage">
+            <div class="tab-pane text-center gallery " id="productPage">
             <div class="row ">
                 <div class="col-md-10 ml-auto mr-auto ">
-                            <h4 class="project-title">FCC Project: Documentation Page</h4>
+                            <h4 class="project-title">FCC Project: Product Page</h4>
                             <h6></h6>
-                            <img src="" class="rounded " width="200px">
+                            <a href="https://codepen.io/jdonahoe101/live/xzQYOR">     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1304140/productPage.png" class="rounded " width="200px">
+                            </a>
+
                 </div>
             </div>
             </div>
@@ -174,7 +187,7 @@
                <div class="col-md-10 ml-auto mr-auto ">
                            <h4 class="project-title">FCC Project: Survey Form</h4>
                            <h6></h6>
-                           <img src="" class="rounded " width="200px">
+                         <a href="https://codepen.io/jdonahoe101/live/XYybRj">  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1304140/FCC_SurveyForm.png" class="rounded " width="200px"></a>
                </div>
            </div>
 
@@ -185,6 +198,9 @@
     <footer class="footer ">
         <nav class="container ">
             <div class="row">
+              <div class="col col-md-6 mr-auto">
+                <a href="https://www.freecodecamp.org/jdonahoe101" id="profile-link" target="_blank">My FCC Profile</a>
+              </div>
                 <div class="col col-md-6 ml-auto" style="margin-top: 25px">
                     &copy; 2018 made with love by  <a href="https://jdonahoe101.github.io/profile/ ">
                            <img src="assets/img/Asset%207.png" alt=" ">
