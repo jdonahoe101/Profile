@@ -25,6 +25,10 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Galada|Lobster|Raleway|Lobster two" rel="stylesheet">
+    <script>
+        const projectName = 'portfolio';
+        localStorage.setItem('example_project', 'Personal Portfolio');
+    </script>
 </head>
 
 <body class="profile-page">
@@ -109,24 +113,18 @@
         <div class="description text-center ">
             <p>Living life the best that I know how to. I am still a newb to the world of coding. I am constantly wanting to learn how new things. Now that I have began programming, I have found a treue passion in which there is no end game. I think I know one language completely, then I do some digging and realize there is so much left I can master. My goal is to learn the basics of 10 programming languages at minimum. I am on language 4 and am happy knowing I have many more languages that are waiting for me to discover.</p>
         </div>
-        <div class="row ">
-            <div class="col-md-6 ml-auto mr-auto ">
-                <div class="profile-tabs ">
-                    <ul class="nav nav-pills nav-pills-icons justify-content-center " role="tablist ">
-                        <li class="nav-item ">
-                            <a class="nav-link active " href="#projects" role="tab " data-toggle="tab ">
-                                        <i class="material-icons ">business_center</i> Projects
-                                    </a>
+        <div class="row">
+            <div class="col-md-6 ml-auto mx-auto">
+                <div class="profile-tabs">
+                    <ul class="nav nav-pills nav-pills-rose nav-pills-icons justify-content-center" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#projects" role="tab" data-toggle="tab"> <i class="material-icons"></i>Projects </a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="#surveyProject" role="tab " data-toggle="tab ">
-                                        <i class="material-icons ">palette</i> Work
-                                    </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work" role="tab" data-toggle="tab"> <i class="material-icons"></i>Work </a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="#favorite " role="tab " data-toggle="tab ">
-                                        <i class="material-icons">favorite</i> Inspiration
-                                    </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inspiration" role="tab" data-toggle="tab"> <i class="material-icons"></i>Inspiration </a>
                         </li>
                     </ul>
                 </div>
@@ -202,6 +200,7 @@
 
     </footer>
     <!--   Core JS Files   -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="assets/js/jquery.min.js "></script>
     <script src="assets/js/popper.min.js "></script>
     <script src="assets/js/bootstrap-material-design.js "></script>
