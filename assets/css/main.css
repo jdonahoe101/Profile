@@ -6,7 +6,7 @@ body {
 
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
-    color: #22313F;
+
 }
 
 h1 {
@@ -34,6 +34,52 @@ h2 {
     font-size: 3.2em !important;
     font-weight: lighter;
     text-shadow: 1px 1px 2px;
+}
+
+
+.profile-link {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    display: inline-flex;
+    align-content: center;
+}
+
+.profile-link:first-of-type {
+    margin-left: 20px !important;
+}
+
+#github-link,
+#facebook-link,
+#snapchat-link,
+#instagram-link,
+#linked-in-link,
+#twitter-link {
+    background-color: #f63d65;
+
+}
+
+#github-link:hover {
+    background-color: #000;
+}
+
+#facebook-link:hover {
+    background-color: #3b5998;
+}
+
+#snapchat-link:hover {
+    background-color: #f9fc32;
+}
+
+#instagram-link:hover {
+    background-color: #9c27b0;
+}
+
+#linked-in-link:hover {
+    background-color: #0976b4;
+}
+
+#twitter-link:hover {
+    background-color: #55acee;
 }
 
 .text-pink {
