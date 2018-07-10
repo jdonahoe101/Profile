@@ -47,7 +47,16 @@ h2 {
 .profile-link:first-of-type {
     margin-left: 20px !important;
 }
+#profile-link a{
+  text-decoration: none;
+  color: #f75578 !important;
 
+}
+#profile-link a:hover{
+  text-decoration: none;
+  color: #f63d65 !important;
+
+}
 #github-link,
 #facebook-link,
 #snapchat-link,
