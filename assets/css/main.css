@@ -3,12 +3,12 @@ html {
 }
 
 body {
-
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
-
 }
-
+#welcome-section {
+ height: 777px;
+}
 h1 {
     font-family: 'Lobster two', cursive !important;
     font-size: 4.5em;
@@ -115,6 +115,7 @@ h3 {
 .text-muted-currsive {
     font-family: 'Galada', cursive !important;
 }
+
 
 /*--------------------------------
 
