@@ -1,21 +1,56 @@
 {
-  "short_name": "jdonahoe",
-  "name": "jdonahoe",
-  "icons": [
-    {
-      "src": "assets/img/logo-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+    "short_name": "jdonahoe",
+    "name": "jdonahoe",
+    "icons": [
+        {
+            "src": "assets/img/logo/android-chrome-144x144.png",
+            "type": "image/png"
+            "sizes": "144x144",
     },
-    {
-      "src": "assets/img/logo-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+        {
+            "src": "assets/img/logo/favicon.jpg",
+            "type": "favicon/jpg",
+            "sizes": "45x45"
+    }
+        {
+            "src": " assets/img/logo/apple-touch-icon.png",
+            "type": "image/png",
+            "sizes": "152x152"
+    }
+        {
+            "src": "assets/img/logo/apple-icon-270x270.png",
+            "type": "image/png",
+            "sizes": "270x270 "
+    }
+        {
+            "src": 'assets/img/logo/-pinkYellow-whitebgX2.png',
+            "type": "image/png",
+            "sizes": "187x120 "
+    }
+        {
+            "src": "assets/img/logo/brand.png ",
+            "type": "image/png",
+            "sizes": " 166x74"
+    }
+        {
+            "src": "assets/img/logo/mstile-75x75.png ",
+            "type": "image/png",
+            "sizes": "75x75 "
+    }
+        {
+            "src": " assets/img/logo/tile-wide.png",
+            "type": "image/png",
+            "sizes": "558x270 "
+    }
+        {
+            "src": "558 × 558 pixels — 15.98 KB ",
+            "type": "image/png",
+            "sizes": " 558x558"
     }
   ],
-  "start_url": "index.html",
-  "background_color": "#d3e2d3",
-  "display": "standalone",
-  "scope": "/index.html/",
-  "theme_color": "#1E824C"
+    "start_url": "https://jdonahoe101.github.io/profile/",
+    "background_color": "#d3e2d3",
+    "display": "standalone",
+    "scope": "/index.html/",
+    "theme_color": "#ffc822"
 }
