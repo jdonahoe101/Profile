@@ -4,8 +4,8 @@
     "icons": [
         {
             "src": "assets/img/logo/android-chrome-144x144.png",
-            "type": "image/png"
-            "sizes": "144x144",
+            "type": "image/png",
+            "sizes": "144x144"
     },
         {
             "src": "assets/img/logo/favicon.jpg",
@@ -20,30 +20,30 @@
         {
             "src": "assets/img/logo/apple-icon-270x270.png",
             "type": "image/png",
-            "sizes": "270x270 "
+            "sizes": "270x270"
     }
         {
-            "src": 'assets/img/logo/-pinkYellow-whitebgX2.png',
+            "src": "assets/img/logo/-pinkYellow-whitebgX2.png",
             "type": "image/png",
-            "sizes": "187x120 "
+            "sizes": "187x120"
     }
         {
-            "src": "assets/img/logo/brand.png ",
+            "src": "assets/img/logo/brand.png",
             "type": "image/png",
-            "sizes": " 166x74"
+            "sizes": "166x74"
     }
         {
-            "src": "assets/img/logo/mstile-75x75.png ",
+            "src": "assets/img/logo/mstile-75x75.png",
             "type": "image/png",
-            "sizes": "75x75 "
+            "sizes": "75x75"
     }
         {
             "src": " assets/img/logo/tile-wide.png",
             "type": "image/png",
-            "sizes": "558x270 "
+            "sizes": "558x270"
     }
         {
-            "src": "558 × 558 pixels — 15.98 KB ",
+            "src": "558 × 558 pixels — 15.98 KB",
             "type": "image/png",
             "sizes": " 558x558"
     }
